@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif; 
+}
+
+body{
+  background-color: rgba(245, 245, 245, 0.37);
+  height: 100vh;
+}
+/*** End General ***/
+/*** Start ***/
+header{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+header nav{
+  width: 80vw;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.appMovil{
+  height: 40px;
+  width: 180px;
+  padding: 4px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #31afb4;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 4px;
+  border-color: #31afb4;
+  background-color: white;
+  cursor: pointer;
+}
+.logo{
+  width: 260px;
+}
+
+.titulo{
+  margin-top: 60px;
+}
+
+h1{
+  text-align: center;
+  font-weight: 400;
+}
+
+/*** Start Converter ***/
+
+.content{
+  display: flex;
+  justify-content: center;
+  height: 72vh;
+}
+
+/*** Start Container ***/
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 960px;
+  height: 160px;
+  margin-top: 6em;
+  border-style: solid;
+  border-color: #31b0b4;
+  border-radius: 4px;
+  box-shadow: 1px 3px 19px 4px rgba(0,0,0,0.0.144);
+  -webkit-box-shadow: 1px 3px 19px 4px rgba(0, 0, 0, 0.144);
+  -moz-box-shadow: 1px 3px 19px 4px rgba(0, 0, 0, 0.144);
+  background-color: white;
+  
+}
+
+#moneda-uno, #moneda-dos{
+  width: 10em;
+  height: 3em;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] { -moz-appearance:textfield; 
+}
+
+input{
+  height: 2.7em;
+  font-size: 1em;
+  padding-left: 0.4em;
+}
+
+/*** Start BTN ***/
+.btn{
+  margin: 2.4em;
+  border-style: none;
+  background-color: white;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.7s; 
+  -moz-transition: -moz-transform 0.7s;  
+  -o-transition: -o-transform 0.7s; 
+  transition: transform 0.7s; 
+  -webkit-transform-style: preserve-3d;  
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.btn img{
+  width: 4em;
+  height: 4em;
+}
+
+.btn.flipped{
+  -webkit-transform: rotate( 360deg );
+  -moz-transform: rotate( 360deg );
+  -o-transform: rotate( 360deg );
+  transform: rotate( 360deg );
+}
+
+.cambio{ 
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+/*** Footer ***/
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  background-color: white;
+}
+
+footer h3{
+  font-size: 1.2;
+  font-weight: 400;
+}
+
+footer h4{
+  font-weight: 400;
+  padding-right: 2em;
+}
+
+footer h4:hover{
+  color: #31b0b4;
+  animation-delay: 0.5s;
+  cursor: pointer;
+}
+
+.links{
+  display: flex;
+}
