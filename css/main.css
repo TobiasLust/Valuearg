@@ -70,7 +70,7 @@ h1{
   justify-content: center;
   align-items: center;
   width: 60em;
-  height: 10em;
+  height: 11em;
   margin-top: 6em;
   border-style: solid;
   border-color: #31b0b4;
@@ -79,7 +79,6 @@ h1{
   -webkit-box-shadow: 1px 3px 19px 4px rgba(0, 0, 0, 0.144);
   -moz-box-shadow: 1px 3px 19px 4px rgba(0, 0, 0, 0.144);
   background-color: white;
-  
 }
 
 #moneda-uno, #moneda-dos{
@@ -131,7 +130,8 @@ input{
   transform: rotate( 360deg );
 }
 
-.cambio{ 
+.cambio{
+  margin-bottom: 30px;
   font-size: 1.2em;
   font-weight: 200;
 }
