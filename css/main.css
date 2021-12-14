@@ -9,7 +9,7 @@
 }
 
 body{
-  background-color: rgba(245, 245, 245, 0.37);
+  background-color: #f5f5f55e;
   height: 100vh;
 }
 /*** End General ***/
@@ -22,24 +22,24 @@ header{
 
 header nav{
   width: 80vw;
-  padding: 10px;
+  padding: 0.625em;
   display: flex;
   justify-content: space-between;
   align-items: center;  
 }
 
 .appMovil{
-  height: 40px;
-  width: 180px;
-  padding: 4px;
+  height: 2.5em;
+  width: 11.25em;
+  padding: 0.25em;
   text-align: center;
   box-sizing: border-box;
   color: #31afb4;
   font-weight: 600;
-  font-size: 14px;
-  border-radius: 4px;
+  font-size: 0.875em;
+  border-radius: 0.25em;
   border-color: #31afb4;
-  background-color: white;
+  background-color: #ffffff;
   cursor: pointer;
 }
 .logo{
@@ -69,8 +69,8 @@ h1{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 960px;
-  height: 160px;
+  width: 60em;
+  height: 10em;
   margin-top: 6em;
   border-style: solid;
   border-color: #31b0b4;
